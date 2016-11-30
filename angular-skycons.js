@@ -6,10 +6,10 @@ angularSkycons.directive( "skycon", function () {
         restrict: "E",
         replace: true,
         scope: {
-            icon: "=",
-            size: "=",
-            animated: "=",
-            color: "="
+            icon: "@",
+            size: "@",
+            animated: "@",
+            color: "@"
         },
         link: function ( scope, element, attrs ) {
 
